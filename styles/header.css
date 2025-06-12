@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(61, 61, 186);
+    
+}
+a:link{
+    color:rgb(240, 233, 233);
+    text-decoration: none;
+}
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.left-bars a::after,
+.right-bars a::after{
+    content:"|";
+    margin: 0 3px;
+    color: aliceblue;
+}
+.left-bars a:last-child::after,
+.right-bars a:last-child::after{
+    content:"";
+}
+
+.right-bars {
+    display: flex;
+    justify-content: flex-end;
+}
+
